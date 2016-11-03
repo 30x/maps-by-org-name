@@ -1,0 +1,23 @@
+{
+  "name": "maps-by-org-name",
+  "version": "0.0.1",
+  "description": "",
+  "main": "maps-by-org-name.js",
+  "dependencies": {
+    "http-helper-functions": "0.0.72"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/30x/maps-by-org-name.git"
+  },
+  "author": "Martin Nally",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/30x/maps-by-org-name/issues"
+  },
+  "homepage": "https://github.com/30x/maps-by-org-name#readme"
+}
