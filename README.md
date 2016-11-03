@@ -1,3 +1,3 @@
 # Overview
 
-The maps-by-org-name application allows maps-by-org-names to be created and maintained. When maps-by-org-names are created or modified, the maps-by-org-names application will generate events. 
+The maps-by-org-name application resolves an org name to an orgID and forwards to the maps microservice.  
