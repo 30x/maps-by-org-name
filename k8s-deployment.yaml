@@ -26,26 +26,6 @@ spec:
         env:
           - name: PORT
             value: "3000"
-          - name: PG_HOST
-            valueFrom:
-              secretKeyRef:
-                name: maps
-                key: pghost
-          - name: PG_USER
-            valueFrom:
-              secretKeyRef:
-                name: maps
-                key: pguser
-          - name: PG_PASSWORD
-            valueFrom:
-              secretKeyRef:
-                name: maps
-                key: pgpassword
-          - name: PG_DATABASE
-            valueFrom:
-              secretKeyRef:
-                name: maps
-                key: pgdatabase
           - name: SHIPYARD_PRIVATE_SECRET
             valueFrom:
               secretKeyRef:
